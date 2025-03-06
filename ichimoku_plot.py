@@ -61,5 +61,10 @@ def ve_ichimoku(symbol, timeframe='15m', limit_candles=120):
                     alpha=0.3, color='red'
                 )
              ])
+<<<<<<< HEAD
 if __name__ == "__main__":
     sqz(20, '15m', 100)
+=======
+
+
+>>>>>>> 829df27 (Cập nhật code với nhiều hàm mới)

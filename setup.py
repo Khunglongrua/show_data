@@ -11,7 +11,8 @@ setup(
         'mplfinance',
         'pandas',
         'numpy',
-        'matplotlib'
+        'matplotlib',
+        'pandas_ta'
     ],
     description='Package for plotting Ichimoku Cloud',
     author='Khunglongrua',

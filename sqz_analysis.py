@@ -28,7 +28,11 @@ def sqz(n=20, timeframe='15m', limit_candles=120):
 
         max_sqz_duration = df['SQZ_Duration'].max()
         if max_sqz_duration > 0:
+<<<<<<< HEAD
             print(f"{symbol}: Nén dài nhất là {max_sqz_duration} nến")
 
 if __name__ == "__main__":
     sqz(20, '15m', 100)
+=======
+            print(f"{symbol}: Nén dài nhất là {max_sqz_duration} nến")
+>>>>>>> 829df27 (Cập nhật code với nhiều hàm mới)
